@@ -11,7 +11,13 @@ UOpenDoor::UOpenDoor()
 	PrimaryComponentTick.bCanEverTick = true;
 
 	// Find the owning Actor
-	FRotator Owner = GetOwner()->GetActorRotation();
+	AActor* Owner = GetOwner();	
+
+	//Create rotator
+	FRotator NewRotation = FRotator(0.0f, 0.0f, 90.0f);
+
+	//Set door rotation
+	Owner->SetActorRotation(NewRotation);
 }
 
 
