@@ -1,10 +1,11 @@
 # Unreal generated files
 */Build
 */Binaries
+*_BuiltData.uasset
 */DerivedDataCache
 */Intermediate
 */Saved
-Escape/Content/StarterContent/
+BuildingEscape/Content/StarterContent/
 
 # Visual Studio 2015 user specific files
 .vs/
