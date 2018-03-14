@@ -19,7 +19,7 @@ void UPositionReport::BeginPlay()
 {
 	Super::BeginPlay();
 
-	UE_LOG(LogTemp, Warning, TEXT("Hello I'm here!"));
+	UE_LOG(LogTemp, Warning, TEXT("Hello I'm the Chair!"));
 
 	// ...
 	
