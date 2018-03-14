@@ -19,6 +19,8 @@ void UPositionReport::BeginPlay()
 {
 	Super::BeginPlay();
 
+	UE_LOG(LogTemp, Warning, TEXT("Hello I'm here!"));
+
 	// ...
 	
 }
